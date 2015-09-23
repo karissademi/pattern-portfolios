@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+    <link rel='icon' type='image/x-icon' href="//cityofphiladelphia.github.io/patterns/images/favicon.ico">
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+
+    <link rel="stylesheet" href="//cityofphiladelphia.github.io/patterns/dist/0.10.2/css/patterns.css" id="theme">
+    <style>
+      /* need a few local overrides */
+      body {
+        font-size:200%;
+        font-family: "Open sans";
+      }
+      h1, h2, h3, h4, h5, h6{
+        font-family:'Montserrat', 'Tahoma', sans-serif !important;
+      }
+      ul,ol{
+        text-align: left;
+      }
+    </style>
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+				<section id="Hello!">
+					<h1>Pattern Portfolios</h1>
+					<h3>alpha.phila.gov</h3>
+					<p>
+						<small>Karissa Demi<br> <a href="https://twitter.com/karissademi">@karissademi</a></small>
+					</p>
+				</section>
+
+				<section id="alpha">
+          <h1>We are redesigning & reimplementing our website!</h1>
+					<h2>alpha.phila.gov</h2>
+			    <p class="fragment">It's hard work.</p>
+          <p class="fragment">Our pattern portfolio has made it easier.</p>
+				</section>
+
+        <section id="definition">
+          <h1>What is a Pattern Portfolio?</h1>
+            <section class="fragments">
+					         <p class="fragment">A collection of markup and styles that describes most every design element in the site <strong>and</strong> the combinations of those elements.</p>
+          </section>
+				</section>
+
+        <section id="pattern-screens-1">
+          <img src="img/content-page.png">
+				</section>
+
+        <section id="pattern-screen-2">
+          <img src="img/off-site-department.png">
+        </section>
+
+        <section id="definition-more">
+          <aside class="notes">
+            <p>b/c you can extrapolate virtually anything you need from it</p>
+          </aside>
+          <h1>What is a Pattern Portfolio...</h1>
+            <h3 class="fragment alternate">The single most tangible and useful deliverable you can get.</h3>
+        </section>
+
+        <section id="its-not">
+          <aside class="notes">
+            <p>Tell the drexel story</p>
+            <p>So often, we get deliverables that can't accommodate edge cases, or even new elements... the pattern portfolio helps mitagte those problems. </p>
+          </aside>
+          <h1>A pattern portfolio is not</h1>
+          <p class="fragment">just a homepage and a content page.</p>
+        </section>
+
+        <section id="our-story">
+          <aside class="notes">
+            <p>Just over a year ago</p>
+            <p>Carte blanche</p>
+          </aside>
+          <h1>Our story</h1>
+          <p></p>
+        </section>
+
+        <section id="users-first">
+          <aside class="notes">
+          </aside>
+          <p>Users first</p>
+          <p>Clean, responsive</p>
+          <p>Simple</p>
+          <p class="fragment">All the buzz words</p>
+        </section>
+
+        <section id="better-approach">
+          <aside class="notes">
+            Quickly realized we needed a better approach, both for consistency within the alpha product but also for external sites and applications. After some research, we decided the correct approach was to create a pattern portfolio.
+          </aside>
+          <h1>A better approach</h1>
+          <p class="fragment">So, we did what we know best</p>
+          <p class="fragment">and sent out an RFP.</p>
+
+        </section>
+
+        <section id="go-philly">
+          <aside class="notes">
+            Seriously, the tech scene in Philly is outstanding. We received interest from some of the best tech firms in the area and we were extremely excited.
+          </aside>
+          <h1>We got</h1>
+          <p>Some absolutely amazing proposals</p>
+        </section>
+
+        <section id="$$$">
+          <img class="fragment" src="img/cant-afford-the-cat.png">
+        </section>
+
+				<section>
+          <aside class="notes">
+            <p>And so does your team. Seriously. If you have a web team working on your website, they can do this. </p>
+            <p>It's amazing that we have the opportunity to compelte both the alpha project, but also the pattern portfolio in house. It's rare that it happens this way, but it brings a commitment and a history to the project that an outside entity simply can't.</p>
+          </aside>
+  				<div class="callout" style="border-left:5px solid #F2BA13">
+            <h1>"We have the skills; let's do it in house".</h1>
+          </div>
+          <p style="float:right">-Kyle Odum</p>
+				</section>
+
+				<section>
+          <aside class="notes">
+            Easy to implement (for alpha and other products, 3rd party vendors)<br>
+            Easy to update (for the developer's sanity)<br>
+            Robust - (needed a solid framework)
+          </aside>
+					<h2>The Goals</h2>
+					<ul>
+		        <li>Easy to implement</li>
+            <li>Easy to update</li>
+            <li>Robust</li>
+					</ul>
+				</section>
+
+        <section>
+          <aside class="notes">
+          </aside>
+					<h2>What we drew from</h2>
+					<ul>
+		        <li><a href="http://patternlab.io/">Pattern Lab</a></li>
+            <li><a href="http://hbrgtech.github.io/pattern-lab-team-workflow/#1">HBR's Presentation</a></li>
+            <li><a href="http://clearleft.com/thinks/118">Clearleft</a></li>
+					</ul>
+				</section>
+
+        <section>
+          <aside class="notes">
+          </aside>
+					<h2>Where we are now</h2>
+					<ul>
+		        <li><a href="https://jekyllrb.com/">Jekyll</a></li>
+            <li><a href="https://pages.github.com/">GitHub Pages</a></li>
+            <li><a href="http://foundation.zurb.com/">Foundation 5</a></li>
+					</ul>
+				</section>
+
+        <section>
+          <aside class="notes">
+          </aside>
+          <h2>Specs</h2>
+          <ul>
+            <li>Releases(how this works)</li>
+            <li>how ppl find out about updates</li>
+          </ul>
+        </section>
+
+        <section>
+          <aside class="notes">
+          </aside>
+          <h2>Sites using the pattern portfolio</h2>
+          <ul>
+            <li><a href="https://alpha.phila.gov/property/">Property</a></li>
+            <li><a href="https://secure.phila.gov/PaymentCenter/AccountLookup/">Pay A Bill</a></li>
+            <li>Police Resource Locator (in development)</li>
+          </ul>
+        </section>
+
+        <section>
+          <aside class="notes">
+            Importance of keeping it up to date
+          </aside>
+          <h2>Maintenance</h2>
+          <p>Phila.gov Patterns is constantly evolving</p>
+          <ul>
+            <li>This means updating fontawesome updated </li>
+            <li>Upgrading to Foundation 6 (when it's released) </li>
+          </ul>
+        </section>
+
+        <section id="caveats">
+          <aside class="notes">
+            Importance of keeping it up to date
+          </aside>
+          <h2>Caveats to this approach</h2>
+          <p>Manual process for devlopers to update their sites to the latest version</p>
+          <p>During times of heavy development (like, always) updates take longer to get into production.
+            <ul>
+              <li>In part b/c we are still developing our WP solution along side the development of /patterns</p>
+              <li>good and bad</li>
+            </ul>
+        </section>
+
+        <section id="make-it-work-for-you">
+          <aside class="notes">
+
+          </aside>
+          <h2>For you!</h2>
+          <p>Link to github repo</p>
+          <p>demo time!</p>
+        </section>
+
+
+				<section style="text-align: left;">
+					<h1>THE END</h1>
+					<p>
+						- <a href="http://slides.com">Try the online editor</a> <br>
+						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
