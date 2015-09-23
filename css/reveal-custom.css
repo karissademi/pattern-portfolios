@@ -1,0 +1,21 @@
+.logo {
+  position: fixed;
+  bottom: 0;
+  width: 20%;
+}
+.reveal .progress span {
+  background-color: #027ea4;
+}
+.reveal .controls div.navigate-right {
+  border-left-color: #027ea4;
+}
+.reveal .controls div.navigate-left {
+  border-right-color: #027ea4;
+}
+.reveal .controls div.navigate-up {
+  border-bottom-color: #027ea4;
+}
+
+.reveal .controls div.navigate-down {
+  border-top-color: #027ea4;
+}
