@@ -15,7 +15,25 @@
 .reveal .controls div.navigate-up {
   border-bottom-color: #027ea4;
 }
-
 .reveal .controls div.navigate-down {
   border-top-color: #027ea4;
+}
+.reveal strong{
+  font-weight:bold;
+}
+html.philly body {
+  background:url("../img/philly-skyline.jpg") no-repeat;
+	background-position:center;
+	background-size: cover;
+}
+#go-philly{
+  color:#fff;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+#go-philly h1{
+  color:#fff;
+}
+.attribution{
+  visibility: hidden;
+  height:0;
 }
