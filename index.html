@@ -19,7 +19,7 @@
 		<link rel="stylesheet" href="css/reveal.css">
     <link rel="stylesheet" href="css/reveal-custom.css">
 
-    <link rel="stylesheet" href="//cityofphiladelphia.github.io/patterns/dist/0.10.2/css/patterns.css" id="theme">
+    <link rel="stylesheet" href="//cityofphiladelphia.github.io/patterns/dist/0.11.1/css/patterns.css" id="theme">
     <style>
       /* need a few local overrides */
       body {
@@ -78,7 +78,7 @@
           </section>
 				</section>
 
-        <section id="content-page" data-transition="fade-in fade-out">
+        <section id="content-page" data-transition="slide-in fade-out">
           <img src="img/content-page.png">
 				</section>
         <section id="content-page" data-transition="fade-in fade-out">
@@ -115,7 +115,7 @@
         <section id="its-not">
           <aside class="notes">
             <p>Tell the drexel story</p>
-            <p>So often, we get deliverables that can't accommodate edge cases, or even new elements... the pattern portfolio helps mitagte those problems. </p>
+            <p>So often, we get deliverables that can't accommodate edge cases, or even new elements... the pattern portfolio helps mitigate those problems. </p>
           </aside>
           <h1>A pattern portfolio is not</h1>
           <p class="fragment"> a homepage and a content page.</p>
@@ -127,14 +127,14 @@
             <p>Carte blanche</p>
           </aside>
           <h1>Our story</h1>
-          <p>At first, we began to tackle Alpha the same way we always tackle projects.</p>
+          <p>At first, we began to tackle Alpha the way we are used to tackling projects.</p>
           <img class="fragment" src="/img/jumping-head-first.jpg" alt="Jumping head first" style="width:80%">
           <p class="fragment">We were destined to walk down the same path we already had.</p>
         </section>
 
 
 
-        <section id="better-approach" data-transition="slide-in slide-out">
+        <section id="better-approach" data-transition="slide-in slide-out" data-transition-speed="fast">
           <aside class="notes">
             Quickly realized we needed a better approach, both for consistency within the alpha product but also for external sites and applications. After some research, we decided the correct approach was to create a pattern portfolio.
           </aside>
@@ -147,7 +147,7 @@
           <p class="fragment">and sent out an RFP.</p>
         </section>
 
-        <section id="go-philly" data-state="philly" data-transition="slide-in fade-out-fast">
+        <section id="go-philly" data-state="philly" data-transition="slide-in fade-out" data-transition-speed="fast">
           <aside class="notes">
             Seriously, the tech scene in Philly is outstanding. We received interest from some of the best tech firms in the area and we were extremely excited.
           </aside>
@@ -179,17 +179,49 @@
             Robust - (needed a solid framework)
           </aside>
 					<h2>The Goals</h2>
-					<ul>
+					<ol>
 		        <li>Easy to implement</li>
             <li>Easy to update</li>
             <li>Robust</li>
-					</ul>
+					</ol>
 				</section>
+
+        <section id="goal-1">
+          <aside class="notes">
+            Easy to implement (for alpha and other products, 3rd party vendors)<br>
+          </aside>
+          <h2>1. Easy to Implement</h2>
+            <p>Adding Phila.gov patterns to a project is as simple as pointing to minified CSS and JavaScript files (also jQuery). </p>
+              <pre>
+                <code data-trim>
+                  &lt;link rel="stylesheet" href="//cityofphiladelphia.github.io/patterns/dist/0.11.1/css/patterns.css"&gt;
+&lt;script src="//cityofphiladelphia.github.io/patterns/dist/0.11.1/js/patterns.min.js"&gt;&lt;/script&gt;
+               </code>
+             </pre>
+        </section>
+
+        <section id="goal-2">
+          <aside class="notes">
+            Easy to update (for the developer's sanity)
+          </aside>
+          <h2>2. Easy to Update</h2>
+            <p>We use <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> in conjunction with <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> to develop and render the pattern portfolio.</p>
+            <img src="img/github-jekyll.jpg">
+        </section>
+
+        <section id="goal-2">
+          <aside class="notes">
+            Robust! Based on Foundation 5
+          </aside>
+          <h2>3. Robust</h2>
+            <p><a href="http://foundation.zurb.com/" target="_blank">Foundation 5</a> gives us the flexibility we need for rapid development.</p>
+            <img src="img/foundation-5.svg">
+        </section>
 
         <section id="standing-on-the-shoulders-of-giants">
           <aside class="notes">
           </aside>
-					<h2>What we drew from</h2>
+					<h2>How we got here</h2>
 					<ul>
             <li><a href="http://clearleft.com/thinks/118">Clearleft</a></li>
 		        <li><a href="http://patternlab.io/">Pattern Lab</a></li>
@@ -200,13 +232,13 @@
         <section>
           <aside class="notes">
           </aside>
-					<h2>Where we are now</h2>
-					<ul>
-		        <li><a href="https://jekyllrb.com/">Jekyll</a></li>
-            <li><a href="https://pages.github.com/">GitHub Pages</a></li>
-            <li><a href="http://foundation.zurb.com/">Foundation 5</a></li>
-					</ul>
-				</section>
+          <h2>Sites using the pattern portfolio</h2>
+          <ul>
+            <li><a href="https://alpha.phila.gov/property/">Property</a></li>
+            <li><a href="https://secure.phila.gov/PaymentCenter/AccountLookup/">Pay A Bill</a></li>
+            <li>Police Resource Locator (in development)</li>
+          </ul>
+        </section>
 
         <section>
           <aside class="notes">
@@ -215,17 +247,6 @@
           <ul>
             <li>Releases(how this works)</li>
             <li>how ppl find out about updates</li>
-          </ul>
-        </section>
-
-        <section>
-          <aside class="notes">
-          </aside>
-          <h2>Sites using the pattern portfolio</h2>
-          <ul>
-            <li><a href="https://alpha.phila.gov/property/">Property</a></li>
-            <li><a href="https://secure.phila.gov/PaymentCenter/AccountLookup/">Pay A Bill</a></li>
-            <li>Police Resource Locator (in development)</li>
           </ul>
         </section>
 
@@ -303,7 +324,6 @@
 					{ src: 'plugin/notes/notes.js', async: true }
 				]
 			});
-
 		</script>
 
 	</body>

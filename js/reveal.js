@@ -1923,7 +1923,6 @@
 		if( requestMethod ) {
 			requestMethod.apply( element );
 		}
-
 	}
 
 	/**
