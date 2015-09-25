@@ -1,6 +1,6 @@
 {
-  "name": "reveal.js",
-  "version": "3.1.0",
+  "name": "Pattern Portfolios",
+  "version": "0.1.0",
   "description": "The HTML Presentation Framework",
   "homepage": "http://lab.hakim.se/reveal-js",
   "subdomain": "revealjs",
@@ -10,13 +10,12 @@
     "start": "grunt serve"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "http://hakim.se"
+    "name": "Karissa Demi",
+    "web": "http://karissademi.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "https://github.com/karissademi/pattern-portfolios.git"
   },
   "engines": {
     "node": "~0.10.0"
@@ -39,7 +38,5 @@
     "grunt-zip": "~0.7.0",
     "grunt": "~0.4.0",
     "node-sass": "~0.9.3"
-  },
-  
-  "license": "MIT"
+  }
 }
