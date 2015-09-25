@@ -16,6 +16,7 @@ ul,ol{
   position: fixed;
   bottom: 0;
   width: 20%;
+  padding: 20px 0 0 20px;
 }
 .reveal .progress span {
   background-color: #027ea4;
