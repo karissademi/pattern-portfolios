@@ -1,3 +1,17 @@
+/* need a few  overrides */
+body {
+  font-size:200% !important;
+  font-family: "Open sans";
+}
+h1, h2, h3, h4, h5, h6{
+  font-family:'Montserrat', 'Tahoma', sans-serif !important;
+}
+ul,ol{
+  text-align: left;
+}
+.alternate{
+  font-size:70% !important;
+}
 .logo {
   position: fixed;
   bottom: 0;
@@ -21,6 +35,10 @@
 .reveal strong{
   font-weight:bold;
 }
+.reveal code {
+  font-size:60%;
+  padding:20px;
+}
 html.philly body {
   background:url("../img/philly-skyline.jpg") no-repeat;
 	background-position:center;
@@ -37,11 +55,6 @@ html.philly body {
   visibility: hidden;
   height:0;
 }
-
 *:fullscreen, *:-webkit-full-screen, *:-moz-full-screen {
   background-color: rgba(255,255,255,0) !important;
-}
-.reveal code {
-  font-size:60%;
-  padding:20px;
 }
